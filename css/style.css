@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    background-color: lightgray;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 50px;
+    font-size: 8.5vh;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    /* A melhor maneira é com media queries, porém é uma forma de resolver usando o vh */
+}
+header p{
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition-duration: 500ms;
+}
+a:hover{
+    color: var(--cor1);
+}
+section{
+    padding: 10vh 0 10vh 40px;
+    line-height: 2em;
+    font-family: var(--fonte1);
+    font-size: 4.5vh;
+}
+section p{
+    padding: 5vh 0 5vh 40px;
+}
+section.normal{
+    background-color: white;
+}
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.507) inset;
+    background-attachment: fixed;
+}
+section.imagem p{
+    display: inline-block;
+    background-color: #00000082;
+    padding: 5px;
+    text-shadow: 1px 1px 5px black;
+}
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+}
+section#img01, section#img02{
+    
+}
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+}
