@@ -66,9 +66,7 @@ section#img01{
 section#img02{
     background-image: url('../imagens/background002.jpg');
 }
-section#img01, section#img02{
-    
-}
+
 footer{
     background-color: var(--cor4);
     color: white;
